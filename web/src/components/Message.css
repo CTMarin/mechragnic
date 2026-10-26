@@ -1,0 +1,18 @@
+.message {
+    border-color: var(--color-border);
+    border-radius: 25px;
+    padding-inline: 1rem;
+    width: 70%;
+}
+
+.message--user {
+    background-color: var(--color-bubble-user-bg);
+    color: var(--color-bubble-user-text);
+    align-self: flex-end;
+}
+
+.message--assistant {
+    background-color: var(--color-bubble-assistant-bg);
+    color: var(--color-bubble-assistant-text);
+    align-self: flex-start;
+}

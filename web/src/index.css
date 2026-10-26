@@ -1,0 +1,92 @@
+:root {
+  --font-display: "Space Grotesk Variable", system-ui, sans-serif;
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+
+  /* Violet scale */
+  --violet-100: #ede9fe;
+  --violet-300: #c4b5fd;
+  --violet-400: #a78bfa;
+  --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+  --violet-800: #5b21b6;
+
+  /* Purple-tinted neutrals */
+  --ink-50: #f7f6fb;
+  --ink-100: #eeecf5;
+  --ink-200: #dcd8e8;
+  --ink-400: #8f88a8;
+  --ink-500: #6b6485;
+  --ink-700: #3b3652;
+  --ink-800: #27233a;
+  --ink-900: #1a1727;
+  --ink-950: #110f1a;
+
+  --red-300: #fca5a5;
+  --red-700: #b91c1c;
+  --red-950: #3b0d14;
+  --red-50: #fef2f2;
+
+  /* Dark mode: default */
+  color-scheme: dark;
+  --color-bg: var(--ink-950);
+  --color-surface: var(--ink-900);
+  --color-border: var(--ink-700);
+  --color-text: var(--ink-100);
+  --color-text-muted: var(--ink-400);
+  --color-accent: var(--violet-400);
+  --color-bubble-user-bg: var(--violet-600);
+  --color-bubble-user-text: #ffffff;
+  --color-bubble-assistant-bg: var(--ink-800);
+  --color-bubble-assistant-text: var(--ink-100);
+  --color-error-bg: var(--red-950);
+  --color-error-text: var(--red-300);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --color-bg: var(--ink-50);
+    --color-surface: #ffffff;
+    --color-border: var(--ink-200);
+    --color-text: var(--ink-900);
+    --color-text-muted: var(--ink-500);
+    --color-accent: var(--violet-700);
+    --color-bubble-user-bg: var(--violet-700);
+    --color-bubble-user-text: #ffffff;
+    --color-bubble-assistant-bg: var(--ink-100);
+    --color-bubble-assistant-text: var(--ink-900);
+    --color-error-bg: var(--red-50);
+    --color-error-text: var(--red-700);
+  }
+}
+
+body {
+  font-family: var(--font-sans), sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display), sans-serif;
+}
+
+input, button {
+  font: inherit;
+}
+
+code, pre {
+  font-family: var(--font-mono), monospace;
+}
+
+#root {
+  min-height: 100dvh;
+  box-sizing: border-box;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

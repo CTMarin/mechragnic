@@ -1,0 +1,408 @@
+{
+  "window": {
+    "start": "2024-03-01T00:00:00Z",
+    "end": "2024-04-01T00:00:00Z"
+  },
+  "criterion": "true when the thread describes a problem with a vehicle or any engine-powered machine (symptoms) and the answers suggest causes or fixes; false for procedures, compatibility, tools, buying advice, theory and anything else that does not fit symptoms, causes and solution",
+  "labels": [
+    {
+      "question_id": 96251,
+      "title": "Timing belt replacement",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "scheduled maintenance"
+    },
+    {
+      "question_id": 96252,
+      "title": "Coolant, filling while draining",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "procedure"
+    },
+    {
+      "question_id": 96255,
+      "title": "No torque wrench - help needed",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "tools and procedure"
+    },
+    {
+      "question_id": 96256,
+      "title": "Why does ignition occurs during the power stroke in spark ignition engines?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "theory"
+    },
+    {
+      "question_id": 96261,
+      "title": "Small quantity of brake fluid got into engine oil, is this problematic?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "a mishap during an oil change, but no symptom reported"
+    },
+    {
+      "question_id": 96269,
+      "title": "How to care for a weathered fiberglas camper roof?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "maintenance"
+    },
+    {
+      "question_id": 96270,
+      "title": "2023 BMW x3 m40i \"Pre-mature\" Oil Change",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "maintenance schedule"
+    },
+    {
+      "question_id": 96272,
+      "title": "Manual Transmission Driving in Reverse Clicking",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "noise"
+    },
+    {
+      "question_id": 96274,
+      "title": "What transmissions are interchangeable with a 2006 Chevrolet Silverado extended cab automatic 6lug truck?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "part compatibility"
+    },
+    {
+      "question_id": 96277,
+      "title": "Hit a curb pretty violently while making a turn, doing 10 mph. Don't see a bubble on tire. Is there still a chance of internal damage to the sidewall?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "possible damage after an impact, no symptom yet"
+    },
+    {
+      "question_id": 96279,
+      "title": "Can fuel dilution significantly lower oil pressure?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "oil pressure light, fuel smell in oil"
+    },
+    {
+      "question_id": 96281,
+      "title": "Currently running 235 35 R 17 tires. Will 215 45 R17 tires also fit same rims?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "part compatibility"
+    },
+    {
+      "question_id": 96282,
+      "title": "Detecting moisture source inside a car",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "damp interior, a leak"
+    },
+    {
+      "question_id": 96284,
+      "title": "key fob not recongized after car sitting with dead battery",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "key not detected"
+    },
+    {
+      "question_id": 96291,
+      "title": "Do automakers ECU-tune their motors to make new models and versions?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "theory"
+    },
+    {
+      "question_id": 96294,
+      "title": "Why is my car losing control and vibrating",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "vibration, pulling"
+    },
+    {
+      "question_id": 96297,
+      "title": "What is this metal thing under my passenger seat?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "part identification"
+    },
+    {
+      "question_id": 96301,
+      "title": "Brake pedal sometimes goes to the floor",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "brake failure"
+    },
+    {
+      "question_id": 96307,
+      "title": "Blinker/Marker light issue",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "electrical"
+    },
+    {
+      "question_id": 96313,
+      "title": "Engine only runs on full choke",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "running fault"
+    },
+    {
+      "question_id": 96314,
+      "title": "O2 vs Air/Fuel Sensors?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "title reads as theory, but the body reports P0420 and P0430 codes"
+    },
+    {
+      "question_id": 96322,
+      "title": "Manual Transmission Gearbox Oil Change Method",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "procedure, although it mentions a stripped filler plug"
+    },
+    {
+      "question_id": 96326,
+      "title": "High fuel consumption",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "performance fault"
+    },
+    {
+      "question_id": 96329,
+      "title": "How bad are NOX emissions from your own car for your own health? What are the consequences of adblue off tune?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "health and legal"
+    },
+    {
+      "question_id": 96338,
+      "title": "How can I remove a stuck cam sensor on my 2007 Chevy Avalanche?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "repair procedure, not a diagnosis"
+    },
+    {
+      "question_id": 96339,
+      "title": "High pitched sound from left rear of mercedes (2004) w203 sportcoupe- Debugging tips? Part replacement tips?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "noise, detailed symptoms"
+    },
+    {
+      "question_id": 96343,
+      "title": "2015 Santa Fe Sport, rear \"LH\" shell hanging off?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "a trim part coming loose"
+    },
+    {
+      "question_id": 96349,
+      "title": "Filling tank \"Heavy duty Coolant\" or \"Coolant Mixture with Water\"",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "buying advice"
+    },
+    {
+      "question_id": 96353,
+      "title": "What exactly is Dewalt's \"precision wrench\" mode?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "tools"
+    },
+    {
+      "question_id": 96356,
+      "title": "jump starting car: why wouldn't jump start work when bad battery is more depleted",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "car will not start, but the question is about why jump starting behaves this way"
+    },
+    {
+      "question_id": 96361,
+      "title": "Thump in transmission when braking",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "noise"
+    },
+    {
+      "question_id": 96364,
+      "title": "Is this uneven tire wear due to not rotating the tires?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "uneven wear"
+    },
+    {
+      "question_id": 96368,
+      "title": "How do I use a gear puller to remove a sleeve on a steering shaft without it damaging the shaft?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "procedure"
+    },
+    {
+      "question_id": 96370,
+      "title": "Weak spark with OK coil resistances",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "ignition fault"
+    },
+    {
+      "question_id": 96373,
+      "title": "Weed eater dies when idling or not at full throttle, but is near catching fire at full throttle",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "a real fault, but a garden tool rather than a vehicle"
+    },
+    {
+      "question_id": 96379,
+      "title": "After hitting a curb, besides alignment, what else should be checked for damage",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "shaking at highway speed after an impact"
+    },
+    {
+      "question_id": 96387,
+      "title": "Tall driver, rearview mirror blocks windshield view",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "ergonomics"
+    },
+    {
+      "question_id": 96388,
+      "title": "What is the right torque wrench for a 25 Nm (18.4 lb.ft) oil filter housing?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "tools"
+    },
+    {
+      "question_id": 96393,
+      "title": "7 Blade Tow Wiring",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "trailer brake lights not working, but mostly a wiring how-to"
+    },
+    {
+      "question_id": 96397,
+      "title": "How do I burp a 2006 Subaru Forester?",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "title is a procedure, body reports boiling over and no heat"
+    },
+    {
+      "question_id": 96400,
+      "title": "Car Radiator Coolant Leak",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "leak"
+    },
+    {
+      "question_id": 96403,
+      "title": "Troubleshooting Slow Start on 2009 Civic Si",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "starting fault"
+    },
+    {
+      "question_id": 96406,
+      "title": "Freshly repainted hood looks blurry",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "cosmetic finish of a repaint"
+    },
+    {
+      "question_id": 96409,
+      "title": "Is this safe using stock wiring for replacing stock speakers?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "upgrade advice"
+    },
+    {
+      "question_id": 96413,
+      "title": "Suzuki gsx-s1000 sometimes hard to shift gears when cold engine",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "shifting fault"
+    },
+    {
+      "question_id": 96414,
+      "title": "High crankcase pressure, no flow through PCV valve",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "blow-by"
+    },
+    {
+      "question_id": 96422,
+      "title": "SK Rapid U041600 + C10A301 + U140600 - link beween trouble codes",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "trouble codes, warning light"
+    },
+    {
+      "question_id": 96426,
+      "title": "Should the wheels of hydraulic floor jacks (ideally) have ball bearings?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "tools"
+    },
+    {
+      "question_id": 96428,
+      "title": "How do you squeeze a hydraulic floor jack and a jack stand one next to the other?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "tools"
+    },
+    {
+      "question_id": 96430,
+      "title": "My upper manifold bolts are in too far",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "damage caused during a repair"
+    },
+    {
+      "question_id": 96438,
+      "title": "How do I get porcelain out of cylinders",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "broken spark plug, but the question is a removal procedure"
+    },
+    {
+      "question_id": 96443,
+      "title": "So i have a 1978 elcamino with a 700r4 that im swapping to a 4l60e. Now i know that its computer controlled so would a eztcu take care of everything?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "conversion project"
+    },
+    {
+      "question_id": 96446,
+      "title": "Can a trained mechanic tell the difference between a rod knock or a timing chain rattling?",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "general question about telling two noises apart, no specific car"
+    },
+    {
+      "question_id": 96451,
+      "title": "2012 Audi Q5 P2177 Code \"System Too Lean\"",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "trouble code"
+    },
+    {
+      "question_id": 96452,
+      "title": "car battery unused for three years",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "dead battery, visible damage"
+    },
+    {
+      "question_id": 96456,
+      "title": "Coil Spring To Replace Or Not",
+      "is_fault_diagnosis": true,
+      "doubtful": false,
+      "note": "replacement decision, the springs look fine"
+    },
+    {
+      "question_id": 96462,
+      "title": "Change UI language Skoda Citigo-E",
+      "is_fault_diagnosis": false,
+      "doubtful": false,
+      "note": "settings"
+    }
+  ]
+}

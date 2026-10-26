@@ -1,0 +1,26 @@
+.chat {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 62rem;
+}
+
+.chat-empty {
+    width: 50%;
+}
+
+.chat-body {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+
+    .sample-text {
+        width: 40%;
+        text-align: center;
+    }
+}

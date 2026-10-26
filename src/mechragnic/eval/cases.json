@@ -1,0 +1,812 @@
+[
+  {
+    "question": "the fabric on the roof inside my car is drooping down",
+    "expected_case_ids": [
+      178
+    ],
+    "note": "no vocabulary overlap with 'sagging headliner' at all, known failure"
+  },
+  {
+    "question": "my reverse lights keep flickering on and off when I back up",
+    "expected_case_ids": [
+      273,
+      1413
+    ],
+    "note": "close to the case wording, easy baseline"
+  },
+  {
+    "question": "my bike won't turn over when I hit the starter",
+    "expected_case_ids": [
+      833,
+      3372,
+      809,
+      1791
+    ],
+    "note": "motorcycle, and 'turn over' instead of 'refusing to start'"
+  },
+  {
+    "question": "the temperature gauge climbs to almost boiling really quickly",
+    "expected_case_ids": [
+      1340,
+      1324,
+      1720,
+      600,
+      1342,
+      1104,
+      1551,
+      829
+    ],
+    "note": "two plausible cases, one runs hot without overheating"
+  },
+  {
+    "question": "the front tyres are bald already and the rears look fine",
+    "expected_case_ids": [
+      619,
+      3810
+    ],
+    "note": "adds detail the case does not mention"
+  },
+  {
+    "question": "there is a high pitched squeal coming from the engine bay that goes away after a while",
+    "expected_case_ids": [
+      232,
+      70,
+      615,
+      71,
+      302
+    ],
+    "note": "serpentine belt noise, four cases describe it"
+  },
+  {
+    "question": "the steering wheel shakes when I press the brake pedal",
+    "expected_case_ids": [
+      486,
+      986,
+      1313,
+      3306
+    ],
+    "note": "warped rotors, described as shaking rather than shimmy"
+  },
+  {
+    "question": "my battery is flat every morning even though I don't leave anything on",
+    "expected_case_ids": [
+      91,
+      3786,
+      1886
+    ],
+    "note": "parasitic draw described in plain language"
+  },
+  {
+    "question": "the car shakes at motorway speed but feels fine going slow",
+    "expected_case_ids": [
+      514,
+      769,
+      986,
+      3797,
+      1261
+    ],
+    "note": "opposite framing to case 514, which says it goes away at higher speeds"
+  },
+  {
+    "question": "white smoke and I keep having to top up the coolant but I see no puddle",
+    "expected_case_ids": [
+      235,
+      995
+    ],
+    "note": "head gasket symptoms, phrased as an observation rather than a diagnosis"
+  },
+  {
+    "question": "engine makes a knocking sound when I accelerate hard and feels weak",
+    "expected_case_ids": [
+      1953,
+      236,
+      1785
+    ],
+    "note": "low octane knock"
+  },
+  {
+    "question": "the aircon blows air that smells like a damp basement",
+    "expected_case_ids": [
+      116,
+      1634,
+      2396
+    ],
+    "note": "simile instead of 'foul smelling'"
+  },
+  {
+    "question": "my car won't crank at all, just a click when I turn the key",
+    "expected_case_ids": [
+      275,
+      595,
+      1728,
+      2285,
+      2327,
+      1426,
+      1777
+    ],
+    "note": "starter or battery, common phrasing"
+  },
+  {
+    "question": "there is a clunking noise from the front when I go over speed bumps",
+    "expected_case_ids": [
+      1714,
+      545,
+      1456
+    ],
+    "note": "case says 'during turns, especially inclines or bumps'"
+  },
+  {
+    "question": "the speedo needle jumps around and sometimes reads zero while I'm moving",
+    "expected_case_ids": [
+      310,
+      1539,
+      742
+    ],
+    "note": "'speedo' colloquialism, describes the fluctuation"
+  },
+  {
+    "question": "engine light came on and the car feels jerky and idles badly",
+    "expected_case_ids": [
+      895,
+      516,
+      541,
+      623
+    ],
+    "note": "oxygen sensor, two cases overlap"
+  },
+  {
+    "question": "power steering groans when I turn and the wheel is heavy",
+    "expected_case_ids": [
+      377,
+      3582,
+      3618
+    ],
+    "note": "two power steering cases, one mentions the noise going away"
+  },
+  {
+    "question": "my windows fog up and the heater blows cold while the engine gets hot",
+    "expected_case_ids": [
+      600
+    ],
+    "note": "heater core, adds fogging which the case does not mention"
+  },
+  {
+    "question": "the abs warning light stays on after I drove through a muddy track",
+    "expected_case_ids": [
+      350,
+      2449
+    ],
+    "note": "case cites debris on the wheel sensor"
+  },
+  {
+    "question": "my clutch pedal feels spongy and the car stalls when I pull away",
+    "expected_case_ids": [
+      219,
+      1399
+    ],
+    "note": "'spongy' instead of 'going funny'"
+  },
+  {
+    "question": "there is a whirring sound that gets louder as the engine speeds up",
+    "expected_case_ids": [
+      7,
+      3529
+    ],
+    "note": "timing chain, 'whirring' instead of 'rattling'"
+  },
+  {
+    "question": "one of my tyres loses pressure slowly but I can't find a puncture",
+    "expected_case_ids": [
+      249,
+      901,
+      1371
+    ],
+    "note": "rim corrosion, phrased as a puzzle"
+  },
+  {
+    "question": "the car sat in the garage for a year and now it won't run properly",
+    "expected_case_ids": [
+      269,
+      2567,
+      1815
+    ],
+    "note": "stale fuel, two cases cover long inactivity"
+  },
+  {
+    "question": "the driver's window won't come down anymore, no sound when I press the switch",
+    "expected_case_ids": [
+      665,
+      1705,
+      343
+    ],
+    "note": "adds the absence of motor noise"
+  },
+  {
+    "question": "the fan under the dashboard only works on the highest setting",
+    "expected_case_ids": [
+      495,
+      2357
+    ],
+    "note": "blower resistor, inverted phrasing of the case"
+  },
+  {
+    "question": "handbrake light won't go off even with the lever down",
+    "expected_case_ids": [
+      338,
+      695,
+      471,
+      954
+    ],
+    "note": "'handbrake' instead of 'emergency brake'"
+  },
+  {
+    "question": "engine dies a few minutes after I start driving and then restarts fine",
+    "expected_case_ids": [
+      1093,
+      1116
+    ],
+    "note": "vapor lock, adds the restart detail"
+  },
+  {
+    "question": "the radio forgets my presets whenever I switch the car off",
+    "expected_case_ids": [
+      1297,
+      838
+    ],
+    "note": "grounding issue, plain phrasing"
+  },
+  {
+    "question": "sunroof stopped halfway and just clicks when I press the button",
+    "expected_case_ids": [
+      323
+    ],
+    "note": "close to the case wording"
+  },
+  {
+    "question": "gearbox whines and it is getting hard to select third",
+    "expected_case_ids": [
+      68,
+      1674,
+      2460
+    ],
+    "note": "synchro wear, adds a noise the cases do not mention"
+  },
+  {
+    "question": "Identify cause of tire wear inside of rim",
+    "expected_case_ids": [
+      1415
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5064), not ingested"
+  },
+  {
+    "question": "2000 Grand AM GT engine and electric cut out randomly while driving",
+    "expected_case_ids": [
+      1886
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5108), not ingested"
+  },
+  {
+    "question": "08 f150 with vibration in the front driver side tire when turning left only.",
+    "expected_case_ids": [
+      2261,
+      2267
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5173), not ingested"
+  },
+  {
+    "question": "Ford Escape 2002 idling rough in cold weather",
+    "expected_case_ids": [
+      3338
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5182), not ingested"
+  },
+  {
+    "question": "2011 Ford Fusion bounces on bumps..no leak dealer wont replace struts even though still in warranty",
+    "expected_case_ids": [
+      3642
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5183), not ingested"
+  },
+  {
+    "question": "Truck overheating and affecting the heater blowing could air occasionally",
+    "expected_case_ids": [
+      600
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5218), not ingested"
+  },
+  {
+    "question": "'83 Mercedes 300D will not start when warm",
+    "expected_case_ids": [
+      2085,
+      1353
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5246), not ingested"
+  },
+  {
+    "question": "Engine turns over but doesn't start. Puff of smoke",
+    "expected_case_ids": [
+      1333,
+      2078,
+      1353
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5295), not ingested"
+  },
+  {
+    "question": "dead battery 350z limited possiblities still eluding what is it?",
+    "expected_case_ids": [
+      3786
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5342), not ingested"
+  },
+  {
+    "question": "Wiper blades not moving, electric windows not moving",
+    "expected_case_ids": [
+      1286,
+      2025
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5344), not ingested"
+  },
+  {
+    "question": "2002 Renault Clio V6 won't start - just turns over",
+    "expected_case_ids": [
+      1333,
+      2078,
+      3530
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5371), not ingested"
+  },
+  {
+    "question": "Peugeot 406 won't start in cold weather",
+    "expected_case_ids": [
+      2285
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5372), not ingested"
+  },
+  {
+    "question": "Rear motorized hatch in 2005 Nissan Armada will not open",
+    "expected_case_ids": [
+      656
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5375), not ingested"
+  },
+  {
+    "question": "My Mazda 626 is loosing power steering; however, it is NOT leaking under car... What's wrong?",
+    "expected_case_ids": [
+      3582
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5387), not ingested"
+  },
+  {
+    "question": "Tire pressure warning when pressure is ok",
+    "expected_case_ids": [
+      394,
+      2237
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5414), not ingested"
+  },
+  {
+    "question": "Slow chugs from starter with warm engine but not cool engine?",
+    "expected_case_ids": [
+      224
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5434), not ingested"
+  },
+  {
+    "question": "What could cause a 2001 Toyota Echo not to start (constant clicking)?",
+    "expected_case_ids": [
+      2327,
+      2285
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5471), not ingested"
+  },
+  {
+    "question": "Hazards work but turn signals do not",
+    "expected_case_ids": [
+      1088,
+      316
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5481), not ingested"
+  },
+  {
+    "question": "What could cause a metal-on-metal noise when braking only while backing?",
+    "expected_case_ids": [
+      253
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5493), not ingested"
+  },
+  {
+    "question": "How to troubleshoot a fan that won't work unless it's on it's on the highest setting?",
+    "expected_case_ids": [
+      495
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5502), not ingested"
+  },
+  {
+    "question": "2000 Ford Focus ZX3 stalls while idling",
+    "expected_case_ids": [
+      1162,
+      102408,
+      1609
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5532), not ingested"
+  },
+  {
+    "question": "Motor will not crank",
+    "expected_case_ids": [
+      1426,
+      1728
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5546), not ingested"
+  },
+  {
+    "question": "2010 Sebring maintains speed for about 5 seconds after depressing accelerator pedal",
+    "expected_case_ids": [
+      685
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5548), not ingested"
+  },
+  {
+    "question": "My car stereo does not save radio station presets",
+    "expected_case_ids": [
+      1297,
+      838
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5550), not ingested"
+  },
+  {
+    "question": "Why would there be transmission fluid in the water overflow reservoir?",
+    "expected_case_ids": [
+      807
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5556), not ingested"
+  },
+  {
+    "question": "What can be done about noisy spring seats?",
+    "expected_case_ids": [
+      49
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5589), not ingested"
+  },
+  {
+    "question": "Broken power window switch on 1998 Outback",
+    "expected_case_ids": [
+      665,
+      3743
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5621), not ingested"
+  },
+  {
+    "question": "Cold start, squeaking noise last for few seconds and its gone",
+    "expected_case_ids": [
+      615,
+      3713
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5631), not ingested"
+  },
+  {
+    "question": "Oldsmobile Alero squeaking when started",
+    "expected_case_ids": [
+      615,
+      3713
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5669), not ingested"
+  },
+  {
+    "question": "Gurgling Noise Behind Dash",
+    "expected_case_ids": [
+      2322
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5700), not ingested"
+  },
+  {
+    "question": "when i start my 1500 dodge ram rpm goes up and down in morning",
+    "expected_case_ids": [
+      2434
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5709), not ingested"
+  },
+  {
+    "question": "Bad temperature gauge reading on '96 Ford F-150",
+    "expected_case_ids": [
+      3591
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5723), not ingested"
+  },
+  {
+    "question": "Subaru Outback 1998 high idle rpms and CEL P0507",
+    "expected_case_ids": [
+      2130,
+      526
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5726), not ingested"
+  },
+  {
+    "question": "Radiator Coolant Leak",
+    "expected_case_ids": [
+      1104,
+      1206,
+      138
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5756), not ingested"
+  },
+  {
+    "question": "95 silerado 2500 diesel died and cranks but won't turn over",
+    "expected_case_ids": [
+      1333
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5771), not ingested"
+  },
+  {
+    "question": "Overheating & coolant loss in 1998 Subaru Outback",
+    "expected_case_ids": [
+      1104,
+      235
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5800), not ingested"
+  },
+  {
+    "question": "2000 Camry P0446 Evaporative Emission Control System Vent Control Circuit Malfunction",
+    "expected_case_ids": [
+      58,
+      3545
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5835), not ingested"
+  },
+  {
+    "question": "High-pitched squealing coming from engine",
+    "expected_case_ids": [
+      232
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5840), not ingested"
+  },
+  {
+    "question": "Clutch pedal no longer provides resistance, clutch won't disengage, what likely failed?",
+    "expected_case_ids": [
+      1399
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5881), not ingested"
+  },
+  {
+    "question": "Factory panic alarm going off after changing battery [97 Toyota Camry]",
+    "expected_case_ids": [
+      225
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5917), not ingested"
+  },
+  {
+    "question": "What is causing steering wheel to vibrate?",
+    "expected_case_ids": [
+      3797,
+      986,
+      514
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5926), not ingested"
+  },
+  {
+    "question": "Cold start Squeak noise",
+    "expected_case_ids": [
+      615,
+      3713
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5974), not ingested"
+  },
+  {
+    "question": "Oil gauge needle is at highest point",
+    "expected_case_ids": [
+      1378,
+      370
+    ],
+    "note": "real Stack Exchange title from 2013 (question 5990), not ingested"
+  },
+  {
+    "question": "WagonR refuses to start sometimes",
+    "expected_case_ids": [
+      3384,
+      2252
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6006), not ingested"
+  },
+  {
+    "question": "2003 Acura TLS running hotter than usual",
+    "expected_case_ids": [
+      1324,
+      1607
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6018), not ingested"
+  },
+  {
+    "question": "Why does my Toyota Camry Hybrid (2008) keep consuming tires?",
+    "expected_case_ids": [
+      3810,
+      619,
+      1415
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6025), not ingested"
+  },
+  {
+    "question": "Prius burns off oil very fast. Is this normal?",
+    "expected_case_ids": [
+      443,
+      632,
+      392
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6056), not ingested"
+  },
+  {
+    "question": "1998 Chevy Lumina won’t start, crank, or click",
+    "expected_case_ids": [
+      1777,
+      1426
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6076), not ingested"
+  },
+  {
+    "question": "1975 Honda XL 250 has erratic idle / high idle when it's cold out",
+    "expected_case_ids": [
+      526,
+      1727
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6078), not ingested"
+  },
+  {
+    "question": "Airbag warning light",
+    "expected_case_ids": [
+      467,
+      1912,
+      1137
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6082), not ingested"
+  },
+  {
+    "question": "Chevy Cruze with a funny sound when applying the brakes. The drums, pads and shoes among other things were replaced",
+    "expected_case_ids": [
+      2128,
+      3256
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6083), not ingested"
+  },
+  {
+    "question": "P0128: Coolant Temp Below Thermostat Regulating Temp",
+    "expected_case_ids": [
+      3460,
+      1991
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6122), not ingested"
+  },
+  {
+    "question": "Grinding sound during cold start?",
+    "expected_case_ids": [
+      542
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6133), not ingested"
+  },
+  {
+    "question": "Oil in coolant after gasket work 1995 Chevrolet Lumina",
+    "expected_case_ids": [
+      1921
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6141), not ingested"
+  },
+  {
+    "question": "VW Polo 2008 won't go into first gear",
+    "expected_case_ids": [
+      1894,
+      2154
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6151), not ingested"
+  },
+  {
+    "question": "Bubbling sound from coolant and increase coolant liquid level",
+    "expected_case_ids": [
+      1340
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6153), not ingested"
+  },
+  {
+    "question": "Power steering fluid started to leak after changing it",
+    "expected_case_ids": [
+      3582,
+      3618
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6171), not ingested"
+  },
+  {
+    "question": "Getting unexpectedly low mileage for Honda Fit 2012",
+    "expected_case_ids": [
+      3497,
+      2424
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6217), not ingested"
+  },
+  {
+    "question": "Ford Explorer overheating",
+    "expected_case_ids": [
+      1593,
+      1324,
+      829
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6239), not ingested"
+  },
+  {
+    "question": "2000 Chevy Camaro starts, idles low around 1000 rpms for 4 or 5 seconds before dying",
+    "expected_case_ids": [
+      2324
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6287), not ingested"
+  },
+  {
+    "question": "Possible reasons for loss of power, engine shaking, and smell of liquid fuel (not burning)?",
+    "expected_case_ids": [
+      895
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6296), not ingested"
+  },
+  {
+    "question": "AC not cold anymore on brand new VW Polo",
+    "expected_case_ids": [
+      1908,
+      743
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6299), not ingested"
+  },
+  {
+    "question": "Replaced brake pads - one pad was full, the other was gone. Brakes now very hot after driving",
+    "expected_case_ids": [
+      2522
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6368), not ingested"
+  },
+  {
+    "question": "Shake while braking at certain speeds, intensified with steering input",
+    "expected_case_ids": [
+      986
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6378), not ingested"
+  },
+  {
+    "question": "Loud clunking noise shifting into reverse and with sudden acceleration",
+    "expected_case_ids": [
+      1650
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6407), not ingested"
+  },
+  {
+    "question": "2009 Toyota Camry.. ABS light comes on occasionally.",
+    "expected_case_ids": [
+      350,
+      2449
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6431), not ingested"
+  },
+  {
+    "question": "Revs shooting up when accelerating in high gears",
+    "expected_case_ids": [
+      944
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6436), not ingested"
+  },
+  {
+    "question": "2001 Pontiac Grand Am SE oil in the coolant",
+    "expected_case_ids": [
+      1921
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6444), not ingested"
+  },
+  {
+    "question": "Steering wheel shakes at high speeds",
+    "expected_case_ids": [
+      3797,
+      986,
+      514
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6445), not ingested"
+  },
+  {
+    "question": "Battery has a draw with key off",
+    "expected_case_ids": [
+      91,
+      3786
+    ],
+    "note": "real Stack Exchange title from 2013 (question 6508), not ingested"
+  }
+]
